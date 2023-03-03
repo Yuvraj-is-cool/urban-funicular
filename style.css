@@ -1,0 +1,16 @@
+button{
+    background-color:rgb(5, 255, 5);
+    color:black;
+}
+body{
+    background-color:black;
+}
+canvas{
+    animation-name:cool;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes cool{
+    from{box-shadow:50px 50px 500px #039dfc;}
+    to{box-shadow: 50px 50px 500px rgb(2, 57, 239);}
+}
